@@ -1,0 +1,32 @@
+
+.img{
+  height: 12rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.article{
+  margin: 2rem;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 4);
+  padding: 1rem;
+  border-radius: 10px;
+  /* border-bottom: 1px solid black; */
+}
+h1,h4{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  margin: .6rem 0;
+  color: rgb(97, 26, 16);
+}
+.author{
+  font-weight: 500;
+}
+@media screen and ( min-width: 768px ) {
+    .booklist{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+}

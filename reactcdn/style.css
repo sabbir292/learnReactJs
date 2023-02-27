@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+/* Navbar */
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem 8rem;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0 0 10 30 rgba(0, 0, 0, 10);
+}
+.navbar img{
+    width: 50px;
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+    text-decoration: none;
+} */
+/* end of navbar */
+
+/* Maincontent */
+
+/* End of Lists */
+
+/* footer */
+.footer{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* end of footer
+ 

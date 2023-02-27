@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  width: 550px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+  padding: 34px 33px;
+  box-sizing: border-box;
+  background: #21222A;
+}
+.header img{
+  border: none;
+  color: #00D8FF;
+  height: 3rem;
+  
+}
+.header h2{
+  color: #61DAFB;
+}
+.header h3{
+  color: #DEEBF8;
+  margin-left: auto;
+}

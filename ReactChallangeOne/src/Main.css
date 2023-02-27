@@ -1,0 +1,39 @@
+.main-container{
+  height: 460px;
+  width: 550px;
+  margin: 0;
+  background-color: #282D35;
+}
+.main{
+  color:#FFFFFF;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 57px 0px 46px 27px;
+}
+.main-container ul{
+  list-style: none;
+  padding-right: 4rem;
+  margin: 0;
+  background-image: url("./src/assets/reactjs-icon\ 2.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 8rem;
+  object-fit: cover;
+}
+
+ul>li::marker{
+  font-size: 1.3rem;
+  content: "\2022";
+  color: rgb(0, 255, 242); 
+}
+
+.main-container ul li{
+  color:#FFFFFF;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-block: 10px;
+  padding-left: 1rem;
+  margin-left: 44px;
+}

@@ -10,6 +10,8 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Poor Story', cursive; 
     font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1569605612461-7ad0dbe3ef4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') no-repeat center;
+    background-size: cover;
 }
 #root{
     display: flex;
@@ -20,41 +22,42 @@ body{
 
 .main-container{
     background: #0B2434;
-    width: 360px;
-    height: 379px;
+    width: 50rem;
+    height: 50rem;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .hero{
-    width: 320px;
-    height: 320px;
-    background: #F5F5F5;
-    border-radius: 10px;
-}
-.hero{
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 25px 34px;
+    height: 88%;
+    width: 88%;
+    border-radius: 14px;
 }
 
+
 .title{
-    font-weight: 700;
-    font-size: 25.6px;
-    line-height: 30px;
+    font-weight: 800;
+    font-size: 4rem;
+    /* line-height: 30px; */
     letter-spacing: -0.03em;
     color: #2B283A;
+    margin-top: -2rem;
 }
 .instructions{
-    font-weight: 400;
-    font-size: 13.1072px;
-    line-height: 16px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 24px;
     letter-spacing: -0.03em;
     color: #4A4E74;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .dice-container{
@@ -63,18 +66,17 @@ body{
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     padding: 25px 34px;
-    height: 10rem;
 }
 .dice{
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
     border-radius: 3.81277px;
     font-weight: 700;
-    font-size: 20.5889px;
+    font-size: 3rem;
     line-height: 24px;
     text-align: center;
     color: #2B283A;
-    height: 2rem;
-    width: 2rem;
+    height: 5rem;
+    width: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,17 +84,64 @@ body{
 }
 .rollBtn{
     background: #5035FF;
-    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 3.2px 7.68px rgb(0 0 0 / 18%);
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    height: 2rem;
-    width: 5.2rem;
+    height: 4rem;
+    width: 9rem;
     border: none;
     outline: none;
-    border-radius: .2rem;
+    border-radius: 0.2rem;
     font-weight: 600;
     cursor: pointer;
-
+    font-size: 1.3rem;
 }
+.scores-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.turns, .prevBest{
+    background-color: #2B283A;
+}
+.clearAll{
+    margin: 1rem 0.5rem;
+    width: 29rem;
+    height: 4rem;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    background: black;
+    color: #d71818;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background: black;
+        overflow: hidden;
+    }
+    .main-container{
+        margin: 0;
+        height: 100vh;
+    }
+
+    .dice{
+        font-size: 2rem;
+        max-width: 3rem;
+        max-height: 3rem;
+    }
+    .rollBtn{
+        max-width: 7rem;
+        max-height: 3rem;
+        font-size: 1rem;
+    }
+    .clearAll{
+        max-width: 23rem;
+    }
+
+  }
