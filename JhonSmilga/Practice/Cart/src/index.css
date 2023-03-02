@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Karla:wght@300;400;500;600;700;800&family=Poor+Story&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(238, 227, 227);
+  font-family: 'Inter', sans-serif;
+/* font-family: 'Karla', sans-serif; */
+/* font-family: 'Poor Story', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60vw;
+  flex-grow: 1;
+  background-color: white;
+}
+.navbar{
+  background-color: rgb(214, 196, 196);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 4rem;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.icon{
+  font-size: 2rem;
+}
+.logo-text{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cart{
+  position: relative;
+}
+.item-count{
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  top: -17px;
+  right: -19px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 800;
+  background: #88bec7;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  color: white;
+}
+.section-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-container{
+  max-width: 70vw;
+  background-color: white;
+  flex-grow: 1;
+  /* height: 50vh; */
+}
+
+
+
+
+.btn{
+  width: 100%;
+  height: 3rem;
+  background-color: floralwhite;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 5);
+}
+
+/* ****************************8888888 */
+
+.item-container{
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  margin: 2rem 1rem;
+  align-items: start;
+  gap: 1rem;
+}
+.image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.quantity-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.img{
+  height: 7rem;
+  width: 5rem;
+}
+.underline{
+  color: grey;
+  border: 1px solid rgb(3, 27, 41);
+}
+.calculation-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+}
