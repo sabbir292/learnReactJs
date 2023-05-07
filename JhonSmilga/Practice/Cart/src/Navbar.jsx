@@ -8,7 +8,7 @@ import { useGlobalContext } from "./Context";
             <nav className="nav-items">
                 <div className="logo-text">Cart</div>
                 <div className="cart">
-                    <div className="item-count">{totalItem}</div>
+                    <div className="item-count">{}</div>
                     <FaCartPlus className="cart icon"/>
                 </div>
             </nav>

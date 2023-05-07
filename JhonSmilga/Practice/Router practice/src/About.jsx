@@ -6,7 +6,7 @@ const About = ()=>{
         <>
         <h1>this is about page</h1>
         {Data.map(item=>{
-            return ( <> <Link to={`/about/${item.id}`}>{item.name}</Link> <br/></>)
+            return ( <Link to={`/about/${item.id}`}>{item.name}</Link>)
         })}
 
         </>
